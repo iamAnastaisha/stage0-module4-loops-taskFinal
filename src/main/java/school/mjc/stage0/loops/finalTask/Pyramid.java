@@ -19,8 +19,6 @@ public class Pyramid {
                     if (i > j - cathetusLength - 1) {
                         System.out.print(l);
                         l++;
-                    } else {
-                        System.out.print(" ");
                     }
                 }
             }
@@ -29,6 +27,6 @@ public class Pyramid {
     }
 
     public static void main(String[] args) {
-        new Pyramid().printPyramid(7);
+        new Pyramid().printPyramid(6);
     }
 }
